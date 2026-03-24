@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>GlassCo Insurance | Captive8</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: { DEFAULT: '#0066FF', 50: '#F0F6FF', 100: '#E0EDFF', 500: '#3B82F6', 600: '#0066FF', 700: '#0052CC', },
+                        background: '#ffffff',
+                        surface: '#f8fafd'
+                    },
+                    fontFamily: { sans: ['Manrope', 'sans-serif'], }
+                }
+            }
+        }
+    </script>
+    <style>body { font-family: 'Manrope', sans-serif; }</style>
+</head>
+<body class="bg-surface text-slate-800 antialiased selection:bg-primary-100 selection:text-primary-700">
+
+    <!-- Navbar -->
+    <nav class="w-full bg-white/90 backdrop-blur-md fixed top-0 z-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center">
+                <img src="https://assets.cdn.filesafe.space/65vBV2U0U3sIA6iXkYJU/media/69c19781aae407741aab42af.png" alt="Captive8 Logo" class="h-12 w-auto object-contain" />
+            </a>
+            <div class="flex items-center gap-6">
+                <a href="index.html#how-it-works" class="hidden md:block text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors">How it Works</a>
+                <a href="index.html#benefits" class="hidden md:block text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors">Benefits</a>
+                <a href="index.html#contact" class="text-sm font-semibold text-slate-600 hover:text-slate-900 border border-slate-200 px-4 py-2 rounded-lg hover:border-slate-300 transition-colors">Get Your Assessment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-32 pb-20 lg:pt-40 lg:pb-24 overflow-hidden bg-slate-900 text-white">
+        <div class="absolute inset-0 z-0 opacity-20">
+            <img src="https://assets.cdn.filesafe.space/65vBV2U0U3sIA6iXkYJU/media/69c1a8047c4de6278273cc23.jpg" alt="Glass installation background" class="w-full h-full object-cover object-center" />
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-transparent"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="max-w-2xl">
+                <a href="index.html#captives" class="inline-flex items-center gap-2 text-primary-300 hover:text-white transition-colors text-sm font-bold uppercase tracking-wider mb-8">
+                    <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Captives
+                </a>
+                <span class="bg-primary text-white text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-widest shadow-lg mb-6 inline-block">Target Combined Ratio: 67%</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6 leading-[1.1]">
+                    GlassCo Insurance
+                </h1>
+                <p class="text-lg text-slate-300 leading-relaxed">
+                    A purpose-built captive insurance company providing highly profitable glass replacement insurance for residential and commercial premises in British Columbia.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-16 pb-24 max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="grid lg:grid-cols-3 gap-12">
+            
+            <!-- Left Column: Primary Info -->
+            <div class="lg:col-span-2 space-y-12">
+                
+                <!-- The Product -->
+                <section class="bg-white p-8 md:p-10 rounded-3xl shadow-sm border border-slate-100">
+                    <div class="flex items-center gap-3 text-primary mb-6">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                        <h2 class="text-2xl font-bold text-slate-900">The Product Concept</h2>
+                    </div>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        This is a specialized glass replacement and repair insurance product designed exclusively for residential and commercial premises. Coverage provides for the free replacement of exterior plain glass windows and glass panels in doors at the covered premises.
+                    </p>
+                    <div class="bg-surface border-l-4 border-primary p-6 rounded-r-xl">
+                        <p class="text-slate-700 font-medium">
+                            <span class="font-bold text-slate-900">Coverage Scope:</span> Applies solely with respect to accidental breakage of glass, or breakage caused by criminal vandalism.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Market & History -->
+                <div class="grid md:grid-cols-2 gap-8">
+                    <section class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 text-primary mb-6">
+                            <i data-lucide="target" class="w-6 h-6"></i>
+                            <h2 class="text-xl font-bold text-slate-900">Target Market</h2>
+                        </div>
+                        <p class="text-slate-600 leading-relaxed">
+                            The primary target market consists of residential and commercial premises across the Province of British Columbia. This product is structured to be distributed efficiently through networks of licensed insurance brokerages.
+                        </p>
+                    </section>
+
+                    <section class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
+                        <div class="flex items-center gap-3 text-primary mb-6">
+                            <i data-lucide="history" class="w-6 h-6"></i>
+                            <h2 class="text-xl font-bold text-slate-900">Program History</h2>
+                        </div>
+                        <p class="text-slate-600 leading-relaxed">
+                            This fundamental product model has been successfully sold in British Columbia for more than 10 years, originally as an unlicensed warranty-style product. Pending FSTOM requirements dictate that all glass repair and replacement contracts must transition into fully licensed insurance products, establishing the immediate strategic necessity for this captive formation.
+                        </p>
+                    </section>
+                </div>
+
+                <!-- Key Value Propositions -->
+                <section>
+                    <h2 class="text-2xl font-bold text-slate-900 mb-8">Key Program Advantages</h2>
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="flex items-start gap-4 p-5 bg-white rounded-2xl border border-slate-200">
+                            <div class="mt-1 w-8 h-8 rounded-full bg-green-50 text-green-600 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="trending-down" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Low Combined Ratio</h4>
+                                <p class="text-sm text-slate-500 mt-1">Historically tight underwriting leading to exceptionally profitable margins.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-5 bg-white rounded-2xl border border-slate-200">
+                            <div class="mt-1 w-8 h-8 rounded-full bg-primary-50 text-primary flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="clock" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Highly Predictable</h4>
+                                <p class="text-sm text-slate-500 mt-1">Pricing and models are backed by 10+ years of local, concrete loss history.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-5 bg-white rounded-2xl border border-slate-200">
+                            <div class="mt-1 w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="users" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Experienced Participants</h4>
+                                <p class="text-sm text-slate-500 mt-1">Built and managed alongside proven, sophisticated regional operators.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 p-5 bg-white rounded-2xl border border-slate-200">
+                            <div class="mt-1 w-8 h-8 rounded-full bg-purple-50 text-purple-600 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="settings" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Minimal Administration</h4>
+                                <p class="text-sm text-slate-500 mt-1">Streamlined operations require minimal overhead for the fronting company.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- Right Column: Hard Data Sidebar -->
+            <div class="lg:col-span-1">
+                <div class="sticky top-32 space-y-6">
+                    
+                    <!-- Metrics Card -->
+                    <div class="bg-slate-900 text-white rounded-3xl p-8 border border-slate-800 shadow-xl relative overflow-hidden">
+                        <div class="absolute -right-8 -top-8 w-32 h-32 bg-primary opacity-20 rounded-full blur-2xl"></div>
+                        <h3 class="text-lg font-bold text-primary-300 uppercase tracking-widest mb-8">Program Details</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="pb-6 border-b border-white/10">
+                                <p class="text-[11px] text-slate-400 uppercase tracking-widest font-bold mb-2 flex items-center gap-2">
+                                    <i data-lucide="calculator" class="w-3 h-3 text-primary-400"></i> Actuary Review
+                                </p>
+                                <p class="font-semibold text-lg">Aon Risk Solutions</p>
+                            </div>
+                            <div class="pb-6 border-b border-white/10">
+                                <p class="text-[11px] text-slate-400 uppercase tracking-widest font-bold mb-2 flex items-center gap-2">
+                                    <i data-lucide="bar-chart-3" class="w-3 h-3 text-primary-400"></i> Projected Combined Ratio
+                                </p>
+                                <p class="text-3xl font-extrabold text-white">67%</p>
+                                <p class="text-xs text-slate-400 mt-1">Average includes 10% fronting estimate.</p>
+                            </div>
+                            <div class="pb-6 border-b border-white/10">
+                                <p class="text-[11px] text-slate-400 uppercase tracking-widest font-bold mb-2 flex items-center gap-2">
+                                    <i data-lucide="briefcase" class="w-3 h-3 text-primary-400"></i> Managing Agent
+                                </p>
+                                <p class="font-semibold">JT Insurance Services (Canada) Inc.</p>
+                            </div>
+                            <div>
+                                <p class="text-[11px] text-slate-400 uppercase tracking-widest font-bold mb-3 flex items-center gap-2">
+                                    <i data-lucide="network" class="w-3 h-3 text-primary-400"></i> Initial Participants
+                                </p>
+                                <ul class="space-y-2">
+                                    <li class="flex items-start gap-2 text-sm text-slate-300">
+                                        <i data-lucide="check" class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5"></i> JT Insurance Services Inc.
+                                    </li>
+                                    <li class="flex items-start gap-2 text-sm text-slate-300">
+                                        <i data-lucide="check" class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5"></i> Chelwood Glass Inc.
+                                    </li>
+                                    <li class="flex items-start gap-2 text-sm text-slate-300">
+                                        <i data-lucide="check" class="w-4 h-4 text-green-400 flex-shrink-0 mt-0.5"></i> Kristo’s Glass Services Inc.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="index.html#contact" class="mt-10 block w-full text-center bg-primary text-white py-4 rounded-xl font-bold hover:bg-white hover:text-slate-900 transition-colors shadow-lg shadow-primary/20 text-sm">
+                            Inquire About GlassCo
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 lg:col-span-1 space-y-4">
+                    <a href="index.html" class="inline-block mb-2">
+                        <img src="https://assets.cdn.filesafe.space/65vBV2U0U3sIA6iXkYJU/media/69c198be3b3a58632a0ba891.jpg" alt="Captive8 Logo" class="h-10 w-auto object-contain" />
+                    </a>
+                    <p class="text-slate-400 text-sm">Empowering associations and their members to take control of their risk.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold mb-6">Navigation</h4>
+                    <ul class="space-y-4">
+                        <li><a href="index.html#how-it-works" class="text-slate-400 hover:text-white text-sm transition-colors">How it Works</a></li>
+                        <li><a href="index.html#benefits" class="text-slate-400 hover:text-white text-sm transition-colors">Benefits</a></li>
+                        <li><a href="index.html#contact" class="text-slate-400 hover:text-white text-sm transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-bold mb-6">Legal</h4>
+                    <ul class="space-y-4">
+                        <li><a href="terms.html" class="text-slate-400 hover:text-white text-sm transition-colors">Terms of Service</a></li>
+                        <li><a href="privacy.html" class="text-slate-400 hover:text-white text-sm transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-span-1">
+                    <h4 class="text-white font-bold mb-6">Contact</h4>
+                    <a href="mailto:info@captive8.ai" class="text-slate-400 hover:text-white text-sm transition-colors block mb-4">info@captive8.ai</a>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors">
+                            <i data-lucide="twitter" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-slate-500 text-sm">© 2024 Captive8. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
